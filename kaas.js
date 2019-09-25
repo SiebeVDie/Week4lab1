@@ -22,8 +22,30 @@ else if (Schimmel == "nee")     {var Korst2 = prompt ("Heeft de kaas een korst?"
 
 
 
-if (Korst == "ja")  
+if (Korst2 == "ja")  
 	document.write("Camembert")
 
-else if (Korst == "nee")  
+else if (Korst2 == "nee")  
 	document.write("Mozzarella")
+
+
+
+if (Duur == "ja") 
+	document.write("Emmenthaler")
+
+else if (Duur == "nee") 
+	document.write("Leerdammer")
+
+
+
+if (Korst == "ja") 
+	document.write("Blue de Rochbaron")
+
+else if (Korst == "nee") 
+		document.write("Foume d'Ambert")
+
+if (Steen == "ja")
+	document.write("Parmigiano Reggiano")
+
+else if (Steen == "nee")
+	document.write("Goudse Kaas)
