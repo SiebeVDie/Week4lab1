@@ -1,51 +1,71 @@
+
 var Geel = prompt("Is de kaas geel?")
 
-if(Geel == "ja")          {var Gaten = prompt("Zitten er gaten in?") }
+//Is de kaas geel?
 
-else if (Geel == "nee")   {var Schimmel = prompt ("Heeft de kaas blauwe schimmels?")}
+if(Geel == "ja")         
+              {var Gaten = prompt("Zitten er gaten in?") }
 
-
-
-
-if(Gaten == "ja")         {var Duur = prompt ("Is de kaas belachelijk duur")}
-
-else if (Gaten == "nee")    {var Steen = prompt ("Is de kaas hard als steen")}
+else if (Geel == "nee")   
+	          {var Schimmel = prompt ("Heeft de kaas blauwe schimmels?")}
 
 
+//Zitten er gaten in?
 
+if(Gaten == "ja")         
+	          {var Duur = prompt ("Is de kaas belachelijk duur")}
 
-
-if (Schimmel == "ja")     {var Korst = prompt ("Heeft de kaas een korst?")}
-
-else if (Schimmel == "nee")     {var Korst2 = prompt ("Heeft de kaas een korst?")}
+else if (Gaten == "nee")    
+	          {var Steen = prompt ("Is de kaas hard als steen")}
 
 
 
+//Heeft de kaas blauwe schimmel?
+
+if (Schimmel == "ja")     
+	         {var Korst = prompt ("Heeft de kaas een korst?")}
+
+else if (Schimmel == "nee")    
+	         {var Korst2 = prompt ("Heeft de kaas een korst?")}
+
+
+
+//Heeft de kaas een korst? (rechterkant)
 
 if (Korst2 == "ja")  
-	document.write("Camembert")
+	        alert("Camembert")
+
 
 else if (Korst2 == "nee")  
-	document.write("Mozzarella")
+	         alert("Mozzarella")
 
 
+
+// Is de kaas belachelijk duur?
 
 if (Duur == "ja") 
-	document.write("Emmenthaler")
+             alert("Emmenthaler")
+
 
 else if (Duur == "nee") 
-	document.write("Leerdammer")
+	         alert("Leerdammer")
 
 
+//Heeft de kaas een korst (linkerkant)
 
 if (Korst == "ja") 
-	document.write("Blue de Rochbaron")
+	         alert("Blue de Rochbaron")
+
 
 else if (Korst == "nee") 
-		document.write("Foume d'Ambert")
+		     alert("Foume d'Ambert")
+
+
+//Is de kaas hard als steen?
 
 if (Steen == "ja")
-	document.write("Parmigiano Reggiano")
+	        alert("Parmigiano Reggiano")
+
 
 else if (Steen == "nee")
-	document.write("Goudse Kaas)
+	        alert("Goudse Kaas")
